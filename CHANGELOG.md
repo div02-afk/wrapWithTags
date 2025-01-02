@@ -19,3 +19,8 @@ All notable changes to the "wrap-with-tags" extension will be documented in this
 - Default tags: `<` and `>`.
 
 ---
+
+## [1.1.0] - 2025-01-02
+
+- Icon added to the extension.
+- Extension dependencies updated (adds ```formulahendry.auto-rename-tag```).
