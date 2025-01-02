@@ -64,6 +64,12 @@ This extension does not currently add settings to VS Code. Future versions may i
 
 - Initial release.
 - Added the ability to wrap selected text with tags using the `Shift+Alt+P` shortcut.
+- Default tags: `<` and `>`.
+
+### 1.1.0
+
+- Added an icon to the extension.
+- Updated extension dependencies (adds `formulahendry.auto-rename-tag`).
 
 ---
 
