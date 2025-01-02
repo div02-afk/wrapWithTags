@@ -20,7 +20,7 @@ All notable changes to the "wrap-with-tags" extension will be documented in this
 
 ---
 
-## [1.1.0] - 2025-01-02
+## [1.2.0] - 2025-01-02
 
 - Icon added to the extension.
 - Extension dependencies updated (adds ```formulahendry.auto-rename-tag```).
