@@ -2,7 +2,8 @@
   "name": "wrap-with-tags",
   "displayName": "wrap-with-tags",
   "description": "Wrap text with tags",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "div02",
   "engines": {
     "vscode": "^1.96.0"
   },
