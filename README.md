@@ -1,90 +1,61 @@
-# Wrap-with-Tags Extension
+# Wrapper Extension
 
-The **Wrap-with-Tags** extension allows you to wrap selected text with customizable HTML-like tags using a simple keyboard shortcut. This is ideal for developers and content creators who frequently work with markup or template languages.
-
----
+Quickly wrap selected text with HTML-like tags or convert quotes to backticks using keyboard shortcuts.
 
 ## Features
 
-- **Wrap Selected Text with Tags**: Quickly wrap text with opening and closing tags using the default shortcut (`Shift+Alt+P`).
-- **Customizable Tags**: Modify the extension to use any tags you prefer.
-- **Ease of Use**: Seamlessly integrates into your workflow with minimal setup.
-  
+### Wrap with Tags (`Shift+Alt+P`)
+
+Wraps selected text with opening and closing tags, placing the cursor inside the opening tag for easy tag naming.
+
 **Example:**
 
-1. Select some text.
-2. Press the shortcut (`Shift+Alt+P`).
-3. The text transforms from:
+```text
+Example Text  →  <>Example Text</>
+```
 
-   ```html
-   Example Text
-   ```
+### Wrap with Backticks (`Shift+Alt+I`)
 
-   to:
+Converts surrounding quotes (`"` or `'`) to backticks (`` ` ``), perfect for converting strings to template literals in JavaScript.
 
-   ```html
-   <Example Text></Example>
-   ```
+**Example:**
 
----
-
-## Requirements
-
-This extension does not have additional dependencies or requirements beyond a standard Visual Studio Code installation.
-
----
+```text
+"Hello World"  →  `Hello World`
+'Hello World'  →  `Hello World`
+```
 
 ## Usage
 
-1. Highlight the text you want to wrap.
-2. Press the shortcut (`Shift+Alt+P`).
-3. Your selected text will be wrapped with `<` and `>` tags.
+1. Select the text you want to wrap
+2. Press the appropriate shortcut:
+   - `Shift+Alt+P` for tags
+   - `Shift+Alt+I` for backticks
 
----
+## Requirements
 
-## Extension Settings
-
-This extension does not currently add settings to VS Code. Future versions may include configuration options such as:
-
-- Customizable tag names.
-- Support for additional markup formats.
-
----
-
-## Known Issues
-
-- The extension assumes a basic structure for tags and may not work with complex nested tags or specific tag formats.
-- Tag wrapping does not currently support tag customization directly from the UI or settings.
-
----
+- Visual Studio Code 1.96.0 or higher
+- Dependencies: `formulahendry.auto-rename-tag` (automatically installed)
 
 ## Release Notes
 
-### 1.0.0
+### 1.3.0
 
-- Initial release.
-- Added the ability to wrap selected text with tags using the `Shift+Alt+P` shortcut.
-- Default tags: `<` and `>`.
+- Added backtick wrapper feature with `Shift+Alt+I` shortcut
 
 ### 1.2.0
 
-- Added an icon to the extension.
-- Updated extension dependencies (adds `formulahendry.auto-rename-tag`).
+- Added extension icon
+- Added auto-rename-tag dependency
 
----
+### 1.0.0
 
-## Future Enhancements
-
-- Add a configuration option for default tags.
-- Support more advanced text transformations, such as wrapping with attributes or nested tags.
-- Provide additional shortcuts for different wrapping patterns.
-
----
+- Initial release with tag wrapper feature
 
 ## Contributing
 
-If you'd like to contribute to this project, feel free to submit issues or pull requests on the [GitHub repository](https://github.com/div02-afk/wrapWithTags).
+Submit issues or pull requests on [GitHub](https://github.com/div02-afk/wrapWithTags).
 
 ---
 
-**Enjoy wrapping your text effortlessly!** 🎉
+**Happy wrapping!** 🎉
