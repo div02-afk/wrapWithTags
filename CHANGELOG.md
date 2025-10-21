@@ -1,26 +1,26 @@
 # Change Log
 
-All notable changes to the "wrap-with-tags" extension will be documented in this file. This project follows [Keep a Changelog](http://keepachangelog.com/) principles.
+All notable changes to the "wrapper" extension will be documented in this file.
 
----
+## [1.3.0] - 2025-10-21
 
-## [Unreleased]
+### Added
 
-- Added ability to wrap selected text with customizable HTML-like tags.
-- Introduced `Shift+Alt+P` shortcut for quick wrapping.
-- Basic support for wrapping text with `<` and `>` tags.
-
----
-
-## [1.0.0] - 2025-01-02
-
-- Initial release of **Wrap-with-Tags** extension.
-- Core feature: Wrap selected text with tags using a keyboard shortcut.
-- Default tags: `<` and `>`.
-
----
+- Backtick wrapper feature with `Shift+Alt+I` shortcut
+- Converts surrounding quotes (`"` or `'`) to backticks (`` ` ``)
+- Perfect for converting JavaScript strings to template literals
 
 ## [1.2.0] - 2025-01-02
 
-- Icon added to the extension.
-- Extension dependencies updated (adds ```formulahendry.auto-rename-tag```).
+### Added
+
+- Icon added to the extension
+- Extension dependency: `formulahendry.auto-rename-tag`
+
+## [1.0.0] - 2025-01-02
+
+### Added
+
+- Initial release with tag wrapper feature
+- Wrap selected text with tags using `Shift+Alt+P` shortcut
+- Cursor automatically positioned inside opening tag for easy tag naming
